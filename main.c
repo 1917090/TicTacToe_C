@@ -208,4 +208,5 @@ void g_result()
         printf(RES);
     }
     h_scr();
+return 0;
 }
