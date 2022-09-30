@@ -28,13 +28,14 @@ int main()
             g_play++;
             game();
             break;
+        
         case 2:
-            g_result();
-            break;
-        case 3:
             printf(CRS);
             system("clear||cls");
             exit(0);
+         case 3:
+            g_result();
+            break;
         default:
             printf(B RRED "\n\tInvalid choice" RES);
             h_scr();
