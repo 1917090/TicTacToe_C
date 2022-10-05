@@ -19,15 +19,7 @@ char win[50][10], p1_n[50][10], p2_n[50][10];
 int main()
 {
     while (1)
-    {
-        printf(CRH);
-        system("clear||cls");
-        switch (start())
-        {
-        case 1:
-            g_play++;
-            game();
-            break;
+
         
         case 2:
             printf(CRS);
@@ -42,6 +34,15 @@ int main()
         }
         count = 0;
         l = 1;
+    {
+        printf(CRH);
+        system("clear||cls");
+        switch (start())
+        {
+        case 1:
+            g_play++;
+            game();
+            break;
         i_pos = 0;
         for (int i = 0; i < 9; i++)
             a[i] = i + 49;
