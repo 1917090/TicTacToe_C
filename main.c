@@ -46,17 +46,6 @@ int main()
             a[i] = i + 49;
     }
 }
-int start()
-{
-    int ch;
-    printf(B RGRN "\n\t1.Play TicTacToe");
-    printf(RBLU "\n\t2.Game Result");
-    printf(RRED "\n\t3.Exit");
-    printf(RCYN "\n\tEnter your choice: ");
-    scanf("%d", &ch);
-    printf(RES);
-    return (ch);
-}
 void game()
 {
     char m;
@@ -92,6 +81,18 @@ void p_name()
     strcpy(p2_n[pl], p2); //copy player2 name
     pl++;
     printf(RES);
+}
+
+int start()
+{
+    int ch;
+    printf(B RGRN "\n\t1.Play TicTacToe");
+    printf(RBLU "\n\t2.Game Result");
+    printf(RRED "\n\t3.Exit");
+    printf(RCYN "\n\tEnter your choice: ");
+    scanf("%d", &ch);
+    printf(RES);
+    return (ch);
 }
 void design()
 {
